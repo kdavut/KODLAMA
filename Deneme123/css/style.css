@@ -1,21 +1,29 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
     font-weight: bolder;
     text-decoration-color: black;
-    background-image: url(/mesh-gradient.png);
-
-    
+    background-color:gray;    
 }
+
 
 ul > li {
     list-style-type: none;
 }
 
-button:hover {
-    color: red;
-  }
+ul > li > a {
+    color: #fff;
+}
 
-.btn-grad {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)}
 .btn-grad {
     margin: 10px;
     padding: 15px 45px;
@@ -33,4 +41,9 @@ button:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+
+.ml-16 {
+    margin-left: 16%;
+    margin-right: 16%;
 }
